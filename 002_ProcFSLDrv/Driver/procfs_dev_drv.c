@@ -241,7 +241,7 @@ module_init(chr_driver_init);
 module_exit(chr_driver_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Amin Hasanzadeh");
+MODULE_AUTHOR("A. H.");
 MODULE_DESCRIPTION("The character device driver");
 
 
