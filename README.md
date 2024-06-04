@@ -19,6 +19,12 @@ The following topics will be practised here:
 
 * VirtialBox 7.0.18 is installed on the host.
 * Ubuntu 24 is installed on the VirtualBox.
+* Install following in Ubuntu (in case, when running "make" command, and it does not recognize the kernel,reinstall the kast 4 ones below):
+    * sudo apt install bzip2 tar gcc make perl git
+    * sudo apt install linux-header-generic
+    * sudo apt install linux-header-$(uname -r) 
+    * sudo apt-get install build-essential 
+    * sudo apt-get install dkms 
 
 ### Executing program
 
@@ -30,6 +36,12 @@ The following topics will be practised here:
 * On Application folder, run "cc app_chr_drv.c -o app_chr_drv".
 * Run "./app_chr_drv" command in a terminal while you are in root. 
 * You can see 3 options: option 1 allows you to write, and option 2 allows you to read whatever you wrote in option via 1.
+
+#### IOCTL driver
+* Follow corresponding oder for "Character driver" above.
+
+#### PROCFS driver
+* Follow corresponding oder for "Character driver" above.
 
 
 ## Help
