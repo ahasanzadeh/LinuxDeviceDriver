@@ -32,17 +32,25 @@ The following topics will be practised here:
 
 * On Driver folder, run "make" command in a terminal while you are in root.
 * run "insmod chr_device_drv.ko".
-* run "lsmod | head -5" or "cat /proc/devices" to see the driver installed driver.
-* On Application folder, run "cc app_chr_drv.c -o app_chr_drv".
+* run "lsmod | head -5" or "cat /proc/devices" to see the driver was installed. "dmesg" also shows you a report ("dmesg -c" clears previous log).
+* On Application folder, run "cc app_chr_drv.c -o app_chr_drv" in the terminal.
 * Run "./app_chr_drv" command in a terminal while you are in root. 
-* You can see 3 options: option 1 allows you to write, and option 2 allows you to read whatever you wrote in option via 1.
+* You can see 3 options: option 1 allows you to write, and option 2 allows you to read whatever you wrote in option 1.
 
 #### IOCTL driver
 * Follow corresponding oder for "Character driver" above.
 
 #### PROCFS driver
-* Follow corresponding oder for "Character driver" above.
+* Follow corresponding oder for "Character driver" above. "cat /proc/chr_proc" shows you what have been inserted in terminal in Application side. "chr_proc" was defined in application side.
 
+#### Interrupt driver - top half
+* Follow corresponding oder for "Character driver" above. "cat /proc/interrupts" shows you that interrupt 1 was incrementing. No need for application side for this practice.Run "dmesg" to see log.
+
+#### Static tasklet driver - bottom half
+* Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### Dynamic tasklet driver - bottom half
+* Follow corresponding oder for "Interrupt driver - top half" above. 
 
 ## Help
 
