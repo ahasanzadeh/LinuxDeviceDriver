@@ -1,1 +1,0 @@
-savedcmd_/home/ah/Documents/Workspace/LinuxDeviceDriver/004_TaskletStaticDrv/Driver/tsklt_statc_device_drv.mod := printf '%s\n'   tsklt_statc_device_drv.o | awk '!x[$$0]++ { print("/home/ah/Documents/Workspace/LinuxDeviceDriver/004_TaskletStaticDrv/Driver/"$$0) }' > /home/ah/Documents/Workspace/LinuxDeviceDriver/004_TaskletStaticDrv/Driver/tsklt_statc_device_drv.mod

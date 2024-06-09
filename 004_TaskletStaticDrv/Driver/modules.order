@@ -1,1 +1,0 @@
-/home/ah/Documents/Workspace/LinuxDeviceDriver/004_TaskletStaticDrv/Driver/tsklt_statc_device_drv.o
