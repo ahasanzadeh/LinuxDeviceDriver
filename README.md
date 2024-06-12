@@ -6,14 +6,18 @@ The purpose of this repository is to practice linux device driver from scratch, 
 
 The following topics will be practised here:
 * Character driver
-* 
+* IOCTL driver
+* PROCFS driver
+* Interrupt driver - top half
+* Static tasklet driver - bottom half
+* Dynamic tasklet driver - bottom half
 
 ## Getting Started
 
 ### Dependencies
 
 * Host can be any OS like Fedora 40 Linux in this case or Ubuntu, Windows etc.  
-* A linux OS like Ubuntu 24 in this case is installed on a VirtualBox installed on the host.
+* A linux OS like Ubuntu 24 in this case is installed on a VirtualBox installed on the host (Kernel release version: 6.8.0-35-generic; GCC version: 13.2.0 GNU nake version: 4.3).
 
 ### Installing
 
