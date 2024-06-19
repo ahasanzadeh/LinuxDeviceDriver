@@ -11,6 +11,10 @@ The following topics will be practised here:
 * Interrupt driver - top half
 * Static tasklet driver - bottom half
 * Dynamic tasklet driver - bottom half
+* Create kthread
+* Run kthread
+* Kthread seeking spinlock
+* Kthread seeking spinlock with tasklet handled by IRQ
 
 ## Getting Started
 
@@ -54,6 +58,22 @@ The following topics will be practised here:
 * Follow corresponding oder for "Interrupt driver - top half" above. 
 
 #### Dynamic tasklet driver - bottom half
+* Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### Create kthread
+
+* Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### Run kthread
+
+* Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### Kthread seeking spinlock
+
+* Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### Kthread seeking spinlock with tasklet handled by IRQ
+
 * Follow corresponding oder for "Interrupt driver - top half" above. 
 
 ## Help
