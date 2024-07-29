@@ -11,10 +11,12 @@ The following topics will be practised here:
 * Interrupt driver - top half
 * Static tasklet driver - bottom half
 * Dynamic tasklet driver - bottom half
-* Create kthread
-* Run kthread
+* Kthread create
+* Kthread run
 * Kthread seeking spinlock
-* Kthread seeking spinlock with tasklet handled by IRQ
+* Tasklet with kthread seeking spinlock which handled by IRQ - bottom half
+* I/O port
+* I/O region
 
 ## Getting Started
 
@@ -60,21 +62,29 @@ The following topics will be practised here:
 #### Dynamic tasklet driver - bottom half
 * Follow corresponding oder for "Interrupt driver - top half" above. 
 
-#### Create kthread
+#### Kthread create
 
-* Follow corresponding oder for "Interrupt driver - top half" above. 
+* Create kthread and wake up the process. Follow corresponding oder for "Interrupt driver - top half" above. 
 
-#### Run kthread
+#### Kthread run
 
-* Follow corresponding oder for "Interrupt driver - top half" above. 
+* Run kthread performs create kthread and wake up process. Follow corresponding oder for "Interrupt driver - top half" above. 
 
 #### Kthread seeking spinlock
 
 * Follow corresponding oder for "Interrupt driver - top half" above. 
 
-#### Kthread seeking spinlock with tasklet handled by IRQ
+#### Tasklet with kthread seeking spinlock which handled by IRQ - bottom half
 
 * Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### I/O port
+
+* Access I/O port of memory; however, it cannot be seen using "cat /proc/ioports" since region has not been asssigned. Follow corresponding oder for "Interrupt driver - top half" above. 
+
+#### I/O region
+
+* Access I/O region of memory. Now, I/O port can be seen using "cat /proc/ioports". Follow corresponding oder for "Interrupt driver - top half" above. 
 
 ## Help
 
