@@ -17,6 +17,12 @@ The following topics will be practised here:
 * Tasklet with kthread seeking spinlock which handled by IRQ - bottom half
 * I/O port
 * I/O region
+* I/O port memory map
+* Setup timer jiffies
+* Busy wait in timer jiffies
+* Schedule timer jiffies
+* Schedule timeout in timer jiffies
+* Wait queue event in timer jiffies
 
 ## Getting Started
 
@@ -80,11 +86,35 @@ The following topics will be practised here:
 
 #### I/O port
 
-* Access I/O port of memory; however, it cannot be seen using "cat /proc/ioports" since region has not been asssigned. Follow corresponding oder for "Interrupt driver - top half" above. 
+* Access I/O port of memory; however, it cannot be seen using "cat /proc/ioports" since region has not been asssigned. Follow corresponding oder for "Character driver" above. 
 
 #### I/O region
 
-* Access I/O region of memory. Now, I/O port can be seen using "cat /proc/ioports". Follow corresponding oder for "Interrupt driver - top half" above. 
+* Access I/O region of memory. Now, I/O port can be seen using "cat /proc/ioports". Follow corresponding oder for "Character driver" above.
+
+#### I/O port memory map
+
+* I/O port can be seen using "cat /proc/ioports". Follow corresponding oder for "Character driver" above. 
+
+#### Setup timer jiffies
+
+* Follow corresponding oder for "Character driver" above. 
+
+#### Busy wait in timer jiffies
+
+* Relax CPU. Follow corresponding oder for "Character driver" above.
+
+#### Schedule timer jiffies
+
+* Use scheduling instead of relax CPU. cheduleFollow corresponding oder for "Character driver" above.
+
+#### Schedule timeout in timer jiffies
+
+* Follow corresponding oder for "Character driver" above.
+
+#### Wait queue event in timer jiffies
+
+* Follow corresponding oder for "Character driver" above.
 
 ## Help
 
