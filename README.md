@@ -28,6 +28,9 @@ The following topics will be practised here:
 * Workqueue in static method
 * Workqueue in dynamic method
 * Own workqueue
+* I2C
+* USB
+* GPIO platform driver
 
 ## Getting Started
 
@@ -140,6 +143,18 @@ The following topics will be practised here:
 #### Own workqueue
 
 * Follow corresponding order for "Workqueue in static method" above.
+
+#### I2C
+
+* Nedd BBB hardware to implement.
+
+#### USB
+
+* Follow corresponding order for "Workqueue in static method" above. After installing the driver using insmod command, it can be probed by "lsmod | head -5".
+
+#### GPIO platform driver
+
+* Nedd BBB hardware to implement.
 
 ## Help
 
