@@ -213,5 +213,5 @@ module_init(i2c_client_drv_init);
 module_exit(i2c_client_drv_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("A. H.");
+MODULE_AUTHOR("M. Z.");
 MODULE_DESCRIPTION("I2C Client Driver");

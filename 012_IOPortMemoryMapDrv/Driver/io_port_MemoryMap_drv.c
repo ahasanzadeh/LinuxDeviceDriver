@@ -50,6 +50,6 @@ static void __exit my_exit(void) {
 module_init(my_init);
 module_exit(my_exit);
 
-MODULE_AUTHOR("A. H.");
+MODULE_AUTHOR("M. Z.");
 MODULE_DESCRIPTION("Requesting the I/O ports memory map");
 MODULE_LICENSE("GPL");

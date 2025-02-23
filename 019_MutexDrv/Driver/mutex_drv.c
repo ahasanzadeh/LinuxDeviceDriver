@@ -179,5 +179,5 @@ module_init(chr_driver_init);
 module_exit(chr_driver_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("A. H.");
+MODULE_AUTHOR("M. Z.");
 MODULE_DESCRIPTION("Mutex device driver");
